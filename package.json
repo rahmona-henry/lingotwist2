@@ -1,0 +1,37 @@
+{
+  "name": "lingotwist2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+"description": "lingotwist",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon bin/www"
+    },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahmona-henry/lingotwist2.git"
+  },
+  "author": "Rahmona Henry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahmona-henry/lingotwist2/issues"
+  },
+  "homepage": "https://github.com/rahmona-henry/lingotwist2#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "fs": "0.0.2",
+    "hbs": "^4.0.0",
+    "http": "0.0.0",
+    "nodemon": "^1.9.1",
+    "path": "^0.12.7",
+    "superagent": "^1.8.3"
+  }
+}
